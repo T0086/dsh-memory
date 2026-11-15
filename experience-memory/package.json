@@ -1,0 +1,18 @@
+{
+  "name": "@local/experience-memory",
+  "version": "0.1.0",
+  "private": true,
+  "description": "会淡忘的经历记忆：按鲜活度、重要度、情绪打分，只在命中时注入上下文，不碰人格。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "src", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}
