@@ -1,0 +1,8 @@
+- insert:
+    - id: experience-memory
+      name: '@local/experience-memory'
+      config:
+        enabled: 1
+        dailyQuota: 8
+        maxItems: 6
+        maxChars: 800
